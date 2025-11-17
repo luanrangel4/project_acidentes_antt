@@ -1,0 +1,4 @@
+# Ignorar dados pesados
+base/processed/
+base/dimensional/
+*.csv

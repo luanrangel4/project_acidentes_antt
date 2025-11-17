@@ -84,8 +84,12 @@ preprocessador = ColumnTransformer(
 
 
 modelos = {
-    "Logistic Regression": LogisticRegression(max_iter=500),
-    "Random Forest": RandomForestClassifier(n_estimators=200),
+    "Random Forest": RandomForestClassifier(
+        n_estimators=200,
+        max_depth=20,
+        n_jobs=-1,
+        class_weight="balanced"
+    ),
     "Gradient Boosting": GradientBoostingClassifier()
 }
 
