@@ -1,244 +1,269 @@
-PROJETO ETL – ACIDENTES EM RODOVIAS CONCEDIDAS ANTT
-INTRODUÇÃO
+PROJETO ETL – ACIDENTES EM RODOVIAS CONCEDIDAS (ANTT)
+📌 Introdução
 
-Este projeto tem como objetivo construir um pipeline de ETL (Extract, Transform, Load) para os dados de acidentes em rodovias concedidas disponíveis no portal de dados abertos da ANTT.
+Este projeto implementa um pipeline de ETL (Extract, Transform, Load) para processar dados de acidentes em rodovias concedidas, disponibilizados pelo portal de Dados Abertos da ANTT.
 
-A solução foi desenhada para:
+Objetivos principais:
 
-centralizar os arquivos .csv de todas as concessionárias em uma única base tabular;
+Centralizar todos os arquivos CSV das concessionárias em uma única base tabular.
 
-padronizar tipos, formatos de data/hora e nomes de colunas;
+Padronizar estruturas, nomes de colunas e formatos de data/hora.
 
-modelar um pequeno Data Warehouse com:
+Construir um Modelo Dimensional contendo:
 
-uma tabela fato de acidentes, e
+Tabela fato de acidentes
 
-dimensões de Tempo, Veículo e Classificação;
+Dimensões: Tempo, Veículo, Classificação, Concessionária e Tipo de Acidente
 
-facilitar o consumo dos dados por ferramentas como Power BI, Metabase ou notebooks de análise.
+Preparar os dados para consumo em ferramentas como Power BI, Metabase, pandas, Spark, etc.
 
-Dentre os benefícios da estrutura adotada:
+Benefícios da solução:
 
-organização em camadas (etl/, modelos/, utils/), facilitando manutenção e extensão do projeto;
+Organização clara em camadas (etl/, modelos/, utils/)
 
-separação clara entre extração, transformação, carga e modelagem dimensional;
+Modularidade → cada etapa é separada e de fácil manutenção
 
-uso de pandas para manipulação dos dados e CSV como formato final de entrega (facilmente migrável para qualquer SGBD);
+CSV como armazenamento final → fácil integração com qualquer SGBD
 
-comentários em pontos-chave do código para destacar decisões de modelagem e possíveis melhorias.
+Comentários estratégicos no código explicando decisões de modelagem
 
-ESTRUTURA DE PASTAS
-
-A estrutura básica do projeto foi organizada da seguinte forma:
-
+📂 Estrutura de Pastas
 project_acidentes_antt/
-  main.py
-  requirements.txt
+│   main.py
+│   requirements.txt
+│   README.md
+│
+├── base/
+│   ├── raw/          # Arquivos originais da ANTT
+│   ├── processed/    # Staging + Data Warehouse em CSV
+│
+├── etl/
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+│
+├── modelos/
+│   ├── dim_tempo.py
+│   ├── dim_veiculo.py
+│   ├── dim_classificacao.py
+│   ├── dim_concessionaria.py
+│   ├── dim_tipo_acidente.py
+│   └── dim_fato_acidentes.py
+│
+├── utils/
+│   ├── io.py
+│   ├── helpers.py
+│   └── logging_utils.py
+│
+└── analises/          # gráficos e análises exploratórias
 
-  base/
-    raw/         -> arquivos CSV originais baixados do portal da ANTT
-    processed/   -> arquivos CSV processados (staging e DW)
+🗂 Descrição das Pastas
+📁 base/raw
 
-  etl/
-    extract.py   -> rotinas de extração/ingestão dos CSVs da pasta base/raw
-    transform.py -> rotinas de padronização e enriquecimento (staging)
-    load.py      -> rotinas para salvar os dados transformados em base/processed
+Contém os arquivos CSV originais da ANTT (um por concessionária).
 
-  modelos/
-    dim_tempo.py          -> criação da dimensão Tempo
-    dim_veiculo.py        -> criação da dimensão Veículo
-    dim_classificacao.py  -> criação da dimensão Classificação
-    dim_fato_acidentes.py -> criação da tabela Fato Acidentes
+📁 base/processed
 
-  utils/
-    io.py          -> funções auxiliares de leitura/escrita de arquivos
-    logging_utils.py -> funções de log e mensagens de execução
-    helpers.py     -> funções genéricas de apoio (ex: limpeza de campos)
+Contém os arquivos finais do ETL:
 
-  docs/
-    README_ETL.md  -> documentação do projeto (este arquivo, sugerido)
+acidentes_staging.csv – base consolidada e padronizada
 
-Descrição das pastas principais
+dim_tempo.csv
 
-base/raw
+dim_veiculo.csv
 
-Contém os arquivos .csv exatamente como disponibilizados pela ANTT, geralmente um arquivo por concessionária.
+dim_classificacao.csv
 
-base/processed
+dim_concessionaria.csv
 
-Armazena os arquivos intermediários e finais:
+dim_tipo_acidente.csv
 
-acidentes_staging.csv – base unificada e padronizada (camada de staging).
+fato_acidentes.csv
 
-dim_tempo.csv, dim_veiculo.csv, dim_classificacao.csv – dimensões.
+⚙️ Camada ETL
+🔹 etl/extract.py – Extração
 
-fato_acidentes.csv – tabela fato.
+Varre base/raw/
 
-etl/
+Lê todos os CSVs independente da concessionária
 
-Camada responsável pelo fluxo ETL:
+Acrescenta coluna concessionaria
 
-extract.py
-Responsável por localizar todos os CSVs na pasta base/raw, ler os arquivos (mantendo o schema fornecido pela ANTT) e concatenar em um DataFrame único.
+Concatena tudo em um único DataFrame
 
-transform.py
-Responsável por aplicar as transformações necessárias:
+🔹 etl/transform.py – Transformação
 
-conversão de tipos (datas, horários, numéricos);
+Principais ajustes aplicados:
 
-criação da coluna data_hora a partir de data + horario;
+Normalização de nomes das colunas
 
-padronização de nomes de colunas;
+Conversão:
 
-tratamento de valores nulos/inconsistentes.
+data → datetime
 
-load.py
-Responsável por gravar os resultados (staging e dimensões/fato) em base/processed.
+horario → time
 
-modelos/
+km → numérico
 
-Camada de modelagem dimensional:
+Criação de data_hora
 
-dim_tempo.py
-A partir da coluna data_hora da staging, gera uma dimensão Tempo com chaves substitutas e atributos como:
+Padronização e correção de ruídos textuais
 
-data_id (chave da dimensão),
+Classificação granular dos acidentes:
 
-data, ano, mes, dia, dia_da_semana, hora, etc.
+Saída de pista
 
-dim_veiculo.py
-Constrói a dimensão Veículo a partir das categorias de veículos do CSV original:
+Choques (infraestrutura / objeto fixo / objeto móvel / veículo parado...)
 
-automovel, bicicleta, caminhao, moto, onibus, outros,
-tracao_animal, transporte_de_cargas_especiais, trator_maquinas, utilitarios.
+Atropelamentos
 
-Cada tipo de veículo torna-se um registro de dimensão, com um identificador (id_veiculo) e a descrição (tipo_veiculo).
+Tombamento / capotamento
 
-dim_classificacao.py
-Cria a dimensão Classificação com base nos campos:
+Infraestrutura viária
 
-tipo_de_ocorrencia (ex: com vítima / sem vítima),
+Incidentais, etc.
 
-tipo_de_acidente (ex: colisão traseira, saída de pista, etc.),
+Resultado final salvo como acidentes_staging.csv.
 
-e campos de severidade: ilesos, levemente_feridos, moderadamente_feridos, gravemente_feridos, mortos.
+🔹 etl/load.py – Carga
 
-Nesta dimensão podemos armazenar não só a classificação textual, mas também indicadores de severidade (por exemplo, um índice ou categoria de gravidade).
+Salva os arquivos transformados na pasta base/processed.
 
-dim_fato_acidentes.py
-Constrói a tabela FatoAcidentes, integrando:
+🧱 Modelagem Dimensional
 
-as chaves das dimensões (Tempo, Veículo, Classificação),
+O DW segue um modelo estrela com 1 fato e 5 dimensões.
 
-atributos de contexto (concessionária, rodovia/trecho, sentido, km),
+⭐ Fato: FATO_ACIDENTES
 
-métricas (quantidade de veículos por tipo, feridos, mortos, etc.).
+Contém as métricas e atributos do acidente:
 
-utils/
+Chaves das dimensões
 
-Contém funções auxiliares reutilizáveis, por exemplo:
+Concessionária, trecho, sentido, km
 
-leitura e escrita de CSV com tratamento de encoding;
+Quantidades de veículos envolvidos
 
-criação de diretórios, se não existirem;
+Severidade (ilesos, feridos, mortos)
 
-funções de log (print_info, print_error, etc.);
+🧩 Dimensões:
+DIM_TEMPO
 
-funções genéricas de limpeza de texto/números.
+Derivada de data_hora.
+Inclui: ano, mês, dia, trimestre, dia da semana, hora.
 
-FLUXO GERAL DO ETL
+DIM_VEICULO
 
-O fluxo do projeto pode ser descrito em três grandes etapas:
+Lista padronizada de tipos de veículos.
 
-Extract (etl/extract.py)
+DIM_CLASSIFICACAO
 
-varre a pasta base/raw/;
+Inclui:
 
-identifica todos os arquivos .csv de acidentes (por concessionária);
+tipo_de_ocorrencia
 
-lê e concatena todos em um DataFrame, mantendo os campos originais:
+tipo_de_acidente
 
-concessionaria, data, horario, n_da_ocorrencia,
-tipo_de_ocorrencia, km, trecho, sentido, tipo_de_acidente,
-automovel, bicicleta, caminhao, moto, onibus, outros,
-tracao_animal, transporte_de_cargas_especiais, trator_maquinas,
-utilitarios, ilesos, levemente_feridos,
-moderadamente_feridos, gravemente_feridos, mortos.
+atributos de severidade (feridos, mortos)
 
-Transform (etl/transform.py)
-Principais transformações:
+DIM_CONCESSIONARIA
 
-Conversão de data (DD/MM/AA) para datetime;
+Padroniza os nomes das concessionárias.
 
-Conversão de horario para time/datetime;
+DIM_TIPO_ACIDENTE
 
-Criação da coluna data_hora (combinação de data + horario);
+Taxonomia criada a partir do classificador desenvolvido.
 
-Conversão de campos numéricos (km, quantidades de veículos, feridos, mortos);
+🚀 Fluxo do ETL
+Extract → Transform → Load → Modelagem → DW Pronto
 
-Limpeza de espaços, caracteres especiais e padronização de trecho e sentido;
+Extract
 
-Padronização do nome das colunas para um formato consistente.
+Lê todos os CSVs de base/raw
 
-Ao final, o DataFrame consolidado é salvo como:
+Transform
 
-base/processed/acidentes_staging.csv
+Padroniza
 
+Limpa
 
-Load + Modelagem Dimensional (main.py + modelos/)
+Normaliza
 
-A partir de acidentes_staging.csv, o script main.py:
+Enriquecimento (classificação avançada)
 
-carrega a base de staging;
+Load
 
-chama create_dim_tempo, create_dim_veiculo, create_dim_classificacao;
+Salva staging e DW
 
-chama create_fato_acidentes para montar a tabela fato;
+Modelagem Dimensional
 
-salva todas as dimensões e a fato em base/processed.
+Criação das 5 dimensões
 
+Criação da tabela fato
 
-PRIMEIROS PASSOS
-Instalação das dependências
+Salvamento final em base/processed
 
-Na raiz do projeto:
-
+▶️ Como Executar
+1) Instalar dependências
 pip install -r requirements.txt
 
+2) Colocar arquivos originais
 
-(ou instale manualmente pelo menos pandas e python-dotenv/pathlib se utilizados).
-
-Organização dos arquivos CSV
-
-Baixe os arquivos .csv de acidentes no portal da ANTT.
-
-Salve todos os arquivos na pasta:
+Salvar todos os CSVs da ANTT em:
 
 base/raw/
 
-Execução do pipeline
-
-Na raiz do projeto, execute:
-
+3) Rodar o ETL completo
 python main.py
 
+4) Arquivos gerados em:
+base/processed/
 
-O fluxo esperado é:
+📊 Análises e Predições
 
-main.py chama as funções de extract, transform e load;
+O projeto também inclui:
 
-os arquivos são lidos, unificados e transformados;
+📌 Análise descritiva
 
-são geradas:
+Evolução temporal
 
-base/processed/acidentes_staging.csv
+Tipos de acidente
 
-base/processed/dim_tempo.csv
+Severidade
 
-base/processed/dim_veiculo.csv
+Hotspots por km
 
-base/processed/dim_classificacao.csv
+Comparação entre concessionárias
 
-base/processed/fato_acidentes.csv
+📌 Análise inferencial
 
-Esses arquivos podem então ser utilizados em ferramentas de análise ou carregados em um banco relacional/analítico.
+Associação de variáveis (Qui-Quadrado)
+
+Diferença de severidade (ANOVA)
+
+Correlação entre fatores e gravidade
+
+📌 Modelos preditivos (Tarefa 3)
+
+Algoritmos comparados:
+
+Logistic Regression
+
+Random Forest
+
+Gradient Boosting
+
+Com métricas:
+
+Acurácia
+
+Precisão
+
+Recall
+
+✅ Status do Projeto
+
+✔️ ETL completo
+✔️ Modelagem dimensional
+✔️ Classificação avançada de acidentes
+✔️ Gráficos de análise exploratória
+✔️ Predição inicial com Random Forest / GBM
