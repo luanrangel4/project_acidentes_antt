@@ -1,0 +1,50 @@
+categoria,sk_tipo_acidente
+Colisão Traseira,1
+Colisão com Objeto Móvel,2
+Queda - Ribanceira,3
+Tombamento,4
+Queda - Moto,5
+Engavetamento,6
+Acidente Não Classificado,7
+Colisão Lateral,8
+Capotamento,9
+Choque com Objeto Fixo,10
+Colisão Frontal,11
+Atropelamento - Outros,12
+Atropelamento - Animal,13
+Colisão em Infraestrutura Viária,14
+Choque – Não Classificado,15
+Saída de Pista,16
+Colisão Transversal,17
+Choque com Infraestrutura,18
+Colisão com Veículo Parado,19
+Atropelamento - Usuário,20
+Atropelamento - Trabalhador,21
+Atropelamento - Esportista,22
+Queda - Outros,23
+Incidente Operacional,24
+Atropelamento - Ambulante,25
+Atropelamento - Pedestre,26
+Acidente - Outra Natureza,27
+Colisão Mesmo Sentido,28
+Atropelamento - Ciclista,29
+Desatrelamento,30
+Soterramento,31
+Queda / Derrapagem,32
+Queda - Bicicleta,33
+Choque com Objeto Móvel,34
+Colisão Longitudinal,35
+Submersão,36
+Colisão com Objeto Fixo,37
+Colisão com Objeto Móvel na Pista,38
+Acidente Sequencial,39
+Acidente Não Localizado,40
+Incêndio / Veículo em Chamas,41
+Colisão Sentido Oposto,42
+Colisão Não Especificada,43
+Danos Eventuais,44
+Transposição de Pista,45
+Explosão,46
+Falha Mecânica,47
+Atropelamento - Em Abrigo,48
+Colisão com Veículo da Concessionária,49

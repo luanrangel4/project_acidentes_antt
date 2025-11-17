@@ -1,0 +1,1572 @@
+tipo_de_ocorrencia,tipo_de_acidente,sk_classificacao
+Sem vítima,colisão - traseira,1
+com vítima,objeto sobre a pista,2
+com vítima,queda de ribanceira,3
+com vítima,tombamento,4
+com vítima,queda de moto,5
+Sem vítima,engavetamento,6
+Sem vítima,queda de ribanceira,7
+Sem vítima,outros,8
+com vítima,colisão - lateral,9
+Sem vítima,colisão - lateral,10
+Sem vítima,tombamento,11
+Sem vítima,capotamento,12
+Sem vítima,choque defensa,13
+Sem vítima,colisão - frontal,14
+com vítima,outros,15
+Sem vítima,atropelamento - andarilho,16
+Sem vítima,choque - meio fio,17
+Sem vítima,atropelamento de animal,18
+com vítima,colisão - traseira,19
+Sem vítima,praca submarino,20
+com vítima,choque - canaleta,21
+com vítima,choque com veículo na faixa de rolamento,22
+Sem vítima,choque - pilar,23
+Sem vítima,choque praça - cabine,24
+Sem vítima,saída de pista,25
+com vítima,atropelamento - andarilho,26
+Sem vítima,nan,27
+com vítima,nan,28
+com vítima,colisão - transversal,29
+com vítima,capotamento,30
+com vítima,choque barreira,31
+com vítima,choque defensa,32
+Sem vítima,queda de moto,33
+Sem vítima,choque - sinalização,34
+Sem vítima,choque barreira,35
+com vítima,atropelamento de animal,36
+Sem vítima,choque com veículo na faixa de rolamento,37
+Sem vítima,colisão - transversal,38
+Sem vítima,objeto sobre a pista,39
+com vítima,saída de pista,40
+Sem vítima,choque talude,41
+Sem vítima,choque com veículo no acostamento,42
+com vítima,engavetamento,43
+com vítima,colisão - frontal,44
+com vítima,choque com veículo no acostamento,45
+com vítima,atropelamento - usuário,46
+com vítima,choque - sinalização,47
+com vítima,atropelamento - morador/trabalhador/estudante,48
+com vítima,praca submarino,49
+com vítima,choque - poste,50
+Sem vítima,choque - arvore,51
+com vítima,atropelamento - esportista,52
+com vítima,atropelamento - funcionário,53
+Sem vítima,choque - poste,54
+com vítima,choque - arvore,55
+com vítima,choque praça - cabine,56
+com vítima,choque - pilar,57
+Sem vítima,queda de carga,58
+com vítima,choque talude,59
+Acidente s,colisão - lateral,60
+Acidente c,colisão - traseira,61
+Acidente s,colisão - traseira,62
+Acidente c,colisão - transversal,63
+Acidente s,queda de ribanceira,64
+Acidente s,queda de moto,65
+Acidente c,queda de moto,66
+Acidente c,saída de pista,67
+Acidente c,colisão - lateral,68
+Acidente s,atropelamento de animal,69
+Acidente s,objeto sobre a pista,70
+Acidente c,queda de ribanceira,71
+Acidente s,saída de pista,72
+Acidente s,engavetamento,73
+Acidente s,queda de carga,74
+Acidente s,choque - sinalização,75
+Acidente s,choque defensa,76
+Acidente s,choque barreira,77
+Acidente s,colisão - transversal,78
+Acidente s,outros,79
+Acidente c,tombamento,80
+Acidente s,capotamento,81
+Acidente c,atropelamento de animal,82
+Acidente c,capotamento,83
+Acidente c,choque barreira,84
+Acidente s,choque com veículo na faixa de rolamento,85
+Acidente s,nan,86
+Acidente c,nan,87
+Atropelame,atropelamento - andarilho,88
+Atropelame,nan,89
+Acidente s,tombamento,90
+Atropelame,atropelamento - morador/trabalhador/estudante,91
+Acidente s,choque com veículo no acostamento,92
+Acidente s,choque praça - cabine,93
+Acidente c,outros,94
+Acidente c,choque defensa,95
+Atropelame,atropelamento - esportista,96
+Acidente s,praca submarino,97
+Acidente s,choque - poste,98
+Acidente c,choque talude,99
+Atropelame,atropelamento - funcionário,100
+Acidente s,choque - canaleta,101
+Acidente s,colisão - frontal,102
+Acidente c,engavetamento,103
+Atropelame,atropelamento - usuário,104
+Acidente c,choque - meio fio,105
+Acidente c,choque com veículo na faixa de rolamento,106
+Acidente s,choque - caixa de captação/fibra,107
+Acidente c,atropelamento - funcionário,108
+Acidente c,choque - poste,109
+Acidente c,colisão - frontal,110
+Acidente s,choque - meio fio,111
+Acidente c,atropelamento - usuário,112
+Acidente s,choque talude,113
+Acidente c,objeto sobre a pista,114
+Acidente c,choque - arvore,115
+Acidente s,choque - arvore,116
+Atropelame,queda de ribanceira,117
+Acidente c,queda de ponte/viaduto,118
+Acidente c,choque - caixa de captação/fibra,119
+Acidente C,queda de moto,120
+Acidente C,colisão - traseira,121
+Acidente C,queda de ribanceira,122
+Acidente C,engavetamento,123
+Acidente C,choque barreira,124
+Acidente C,colisão - lateral,125
+Acidente C,choque defensa,126
+Acidente C,colisão - transversal,127
+Acidente C,capotamento,128
+Acidente s,teste wanderson,129
+Acidente C,saída de pista,130
+Acidente c,atropelamento - morador/trabalhador/estudante,131
+Acidente c,choque com veículo no acostamento,132
+Atropelame,capotamento,133
+Acidente c,choque - painel propaganda,134
+Acidente c,queda de carga,135
+Atropelame,atropelamento - ambulante,136
+Acidente s,atropelamento - esportista,137
+Acidente c,choque - canaleta,138
+Acidente c,atropelamento - esportista,139
+Acidente s,choque praça - cancela,140
+Acidente s,choque - pilar,141
+Acidente c,praca submarino,142
+Acidente s,choque - call box,143
+Acidente s,atropelamento - funcionário,144
+Acidente c,choque praça - cancela,145
+Acidente s,atropelamento - ambulante,146
+Acidente s,queda de ponte/viaduto,147
+Atropelame,atropelamento de pedestre,148
+Atropelame,atropelamento de animal,149
+Acidente c,choque - pilar,150
+Sem vítima,colisão frontal,151
+Sem vítima,acidentes de outra natureza,152
+Sem vítima,choque,153
+Com vítima,queda de moto,154
+Sem vítima,colisão traseira,155
+Com vítima,colisão traseira,156
+Com vítima,colisão frontal,157
+Com vítima,colisão lateral no mesmo sentido,158
+Com vítima,engavetamento,159
+Sem vítima,colisão lateral no mesmo sentido,160
+Com vítima,acidentes de outra natureza,161
+Com vítima,atropelamento de pedestre,162
+Com vítima,capotamento,163
+Com vítima,choque,164
+Sem vítima,colisão transversal,165
+Sem vítima,atropelamento de pedestre,166
+Com vítima,tombamento,167
+Com vítima,colisão transversal,168
+Com vítima,queda de carga,169
+Com vítima,atropelamento de animal,170
+Com vítima,saída de pista,171
+ac02-Acide,saida de pista,172
+ac02-Acide,colisão lateral no sentido contrário,173
+ac02-Acide,colisão traseira,174
+ac03-Acide,colisão traseira,175
+ac03-Acide,choque - defensa metálica,176
+ac03-Acide,saida de pista,177
+ac02-Acide,colisão frontal,178
+ac02-Acide,capotamento,179
+ac01-Acide,colisão frontal,180
+ac03-Acide,colisão lateral no sentido contrário,181
+ac03-Acide,objeto sobre a pista,182
+ac03-Acide,colisão lateral no mesmo sentido,183
+ac03-Acide,queda de moto,184
+ac03-Acide,atropelamento de animal,185
+ac02-Acide,colisão lateral no mesmo sentido,186
+ac03-Acide,engavetamento,187
+ac03-Acide,tombamento,188
+ac03-Acide,choque - arvore,189
+ac02-Acide,queda de moto,190
+ac03-Acide,colisão transversal,191
+ac03-Acide,colisão frontal,192
+ac02-Acide,tombamento,193
+ac03-Acide,atropelamento - ciclista,194
+ac03-Acide,capotamento,195
+ac03-Acide,choque - poste,196
+ac01-Acide,colisão traseira,197
+ac01-Acide,saida de pista,198
+ac02-Acide,choque - defensa metálica,199
+ac03-Acide,choque - meio fio,200
+ac03-Acide,choque - outros,201
+ac02-Acide,objeto lançado contra veículo,202
+ac03-Acide,desatrelamento,203
+ac02-Acide,colisão transversal,204
+ac02-Acide,atropelamento - andarilho,205
+ac02-Acide,atropelamento - morador,206
+ac03-Acide,objeto lançado contra veículo,207
+ac03-Acide,queda de ciclista,208
+ac03-Acide,soterramento,209
+ac04-Acide,atropelamento - funcionário,210
+ac01-Acide,colisão lateral no sentido contrário,211
+ac02-Acide,atropelamento de animal,212
+ac01-Acide,colisão lateral no mesmo sentido,213
+ac01-Acide,atropelamento - andarilho,214
+ac02-Acide,atropelamento - ciclista,215
+ac03-Acide,veiculo parado,216
+ac02-Acide,praca submarino,217
+ac02-Acide,queda de ciclista,218
+ac03-Acide,atropelamento - morador,219
+ac03-Acide,praca submarino,220
+ac02-Acide,choque - meio fio,221
+ac02-Acide,choque - outros,222
+ac03-Acide,elemento de drenagem,223
+ac01-Acide,tombamento,224
+ac02-Acide,engavetamento,225
+ac03-Acide,choque - new jersey,226
+ac02-Acide,veiculo parado,227
+ac02-Acide,objeto sobre a pista,228
+ac03-Acide,atropelamento - ambulante,229
+ac01-Acide,queda de moto,230
+ac01-Acide,choque - arvore,231
+ac01-Acide,colisão transversal,232
+ac03-Acide,choque - sinalização,233
+ac01-Acide,engavetamento,234
+ac03-Acide,carreta deu l,235
+ac02-Acide,elemento de drenagem,236
+ac02 - Aci,queda de moto,237
+ac03 - Aci,atropelamento de animal,238
+ac03 - Aci,colisão traseira,239
+ac03 - Aci,colisão lateral no mesmo sentido,240
+ac03 - Aci,choque - defensa metálica,241
+ac02 - Aci,tombamento,242
+ac02 - Aci,colisão transversal,243
+ac03 - Aci,saida de pista,244
+ac02 - Aci,atropelamento - ciclista,245
+ac02 - Aci,atropelamento - morador,246
+ac02 - Aci,colisão traseira,247
+ac03 - Aci,colisão lateral no sentido contrário,248
+ac02 - Aci,colisão frontal,249
+ac03 - Aci,queda de moto,250
+ac01 - Aci,engavetamento,251
+ac02 - Aci,saida de pista,252
+ac01 - Aci,colisão frontal,253
+ac03 - Aci,choque - arvore,254
+ac03 - Aci,tombamento,255
+ac02 - Aci,atropelamento - andarilho,256
+ac03 - Aci,colisão frontal,257
+ac01 - Aci,colisão transversal,258
+ac02 - Aci,colisão lateral no mesmo sentido,259
+ac03 - Aci,engavetamento,260
+ac03 - Aci,atropelamento - ciclista,261
+ac03 - Aci,capotamento,262
+ac01 - Aci,colisão traseira,263
+ac03 - Aci,colisão transversal,264
+ac03 - Aci,elemento de drenagem,265
+ac02 - Aci,queda de ciclista,266
+ac02 - Aci,colisão lateral no sentido contrário,267
+ac02 - Aci,capotamento,268
+ac02 - Aci,carreta deu l,269
+ac03 - Aci,queda de ciclista,270
+ac03 - Aci,choque - outros,271
+ac02 - Aci,choque - poste,272
+ac02 - Aci,choque - meio fio,273
+ac03 - Aci,objeto sobre a pista,274
+ac02 - Aci,choque - arvore,275
+ac03 - Aci,carreta deu l,276
+ac03 - Aci,objeto lançado contra veículo,277
+ac02 - Aci,atropelamento de animal,278
+ac02 - Aci,engavetamento,279
+ac01 - Aci,atropelamento - ciclista,280
+Sem vítima,colisão lateral em sentido contrário,281
+Com vítima,carreta deu l,282
+Sem vítima,carreta deu l,283
+Com vítima,queda de bicicleta,284
+Com vítima,colisão lateral em sentido contrário,285
+Com vítima,atropelamento de ciclista,286
+Sem vítima,desatrelamento,287
+Sem vítima,atropelamento de ciclista,288
+Sem vítima,queda de bicicleta,289
+sem vítima,colisão traseira,290
+sem vítima,saida de pista,291
+sem vítima,queda de moto,292
+com vítima,saida de pista,293
+sem vítima,capotamento,294
+sem vítima,colisão lateral,295
+sem vítima,colisão frontal,296
+com vítima,colisão traseira,297
+sem vítima,tombamento,298
+sem vítima,choque - barranco,299
+sem vítima,"choque - defensa, barreira ou meio fio",300
+com vítima,colisão transversal,301
+sem vítima,engavetamento,302
+sem vítima,veiculo parado,303
+sem vítima,objeto sobre a pista,304
+com vítima,"choque - defensa, barreira ou meio fio",305
+com vítima,veiculo parado,306
+com vítima,colisão frontal,307
+sem vítima,choque - arvore,308
+com vítima,elemento de drenagem,309
+sem vítima,choque - poste,310
+sem vítima,atropelamento - animal,311
+sem vítima,carreta deu l,312
+sem vítima,colisão transversal,313
+com vítima,atropelamento - sem informação,314
+com vítima,choque - barranco,315
+com vítima,colisão lateral,316
+com vítima,choque - objeto não identificado,317
+com vítima,atropelamento - animal,318
+com vítima,choque - suporte de sinalização,319
+sem vítima,choque - suporte de sinalização,320
+com vítima,queda de ciclista,321
+sem vítima,choque - talude,322
+sem vítima,queda de ciclista,323
+sem vítima,queda,324
+sem vítima,elemento de drenagem,325
+com vítima,atropelamento - outros,326
+com vítima,abalroamento - longitudinal,327
+sem vítima,objeto lançado contra veículo,328
+sem vítima,nan,329
+com vítima,objeto lançado contra veículo,330
+sem vítima,submersão,331
+sem vítima,abalroamento - longitudinal,332
+com vítima,atropelamento - morador,333
+com vítima,abalroamento - transversal,334
+com vítima,choque - talude,335
+sem vítima,atropelamento de animal,336
+sem vítima,atropelamento - usuário,337
+sem vítima,choque - objeto não identificado,338
+com vítima,atropelamento - ciclista,339
+com vítima,atropelamento - ambulante,340
+sem vítima,atropelamento - outros,341
+com vítima,carreta deu l,342
+sem vítima,choque - obstáculo fixo,343
+com vítima,choque - obstáculo fixo,344
+sem vítima,choque - outros,345
+com vítima,atropelamento - pedestre,346
+com vítima,choque - outros,347
+sem vítima,choque - sinalização,348
+sem vítima,choque - new jersey,349
+com vítima,colisão lateral no mesmo sentido,350
+sem vítima,colisão lateral no mesmo sentido,351
+sem vítima,choque - meio fio,352
+com vítima,choque - meio fio,353
+sem vítima,choque - defensa metálica,354
+sem vítima,"queda de barreira, ribanceira, ponte ou viaduto",355
+com vítima,colisão lateral no sentido contrário,356
+com vítima,"queda de barreira, ribanceira, ponte ou viaduto",357
+com vítima,choque - new jersey,358
+com vítima,choque - defensa metálica,359
+sem vítima,colisão lateral no sentido contrário,360
+ac03 - Aci,choque - sinalização,361
+ac03 - Aci,choque - meio fio,362
+ac02 - Aci,elemento de drenagem,363
+ac03 - Aci,veiculo parado,364
+ac02 - Aci,choque - barranco,365
+ac03 - Aci,choque - talude,366
+ac01 - Aci,elemento de drenagem,367
+ac02 - Aci,choque - talude,368
+ac03 - Aci,choque - barranco,369
+ac01 - Aci,choque - sinalização,370
+ac03 - Aci,choque - new jersey,371
+ac02 - Aci,objeto sobre a pista,372
+ac01 - Aci,atropelamento - pedestre,373
+ac02 - Aci,choque - sinalização,374
+ac02 - Aci,choque - new jersey,375
+ac02 - Aci,atropelamento - pedestre,376
+ac01 - Aci,capotamento,377
+ac02 - Aci,choque - defensa metálica,378
+ac01 - Aci,tombamento,379
+ac02 - Aci,veiculo parado,380
+ac01 - Aci,choque - talude,381
+ac03 - Aci,"queda de veículo em ribanceira, ponte ou viaduto",382
+ac02 - Aci,atropelamento - funcionário,383
+ac02 - Aci,choque - talude ou barranco,384
+ac02 - Aci,choque - outros,385
+ac03 - Aci,choque - talude ou barranco,386
+ac01 - Aci,choque - defensa metálica,387
+ac01 - Aci,choque - new jersey,388
+ac01 - Aci,praca submarino,389
+ac03 - Aci,queda de carro,390
+ac03 - Aci,choque - poste,391
+ac01 - Aci,queda de moto,392
+ac01 - Aci,atropelamento - andarilho,393
+ac01 - Aci,atropelamento - sem informação,394
+ac03 - Aci,atropelamento - andarilho,395
+ac02 - Aci,praca submarino,396
+ac03 - Aci,praca submarino,397
+ac03 - Aci,choque - cancela de pedagio,398
+ac02 - Aci,objeto lançado contra veículo,399
+ac02 - Aci,"queda de veículo em ribanceira, ponte ou viaduto",400
+ac01 - Aci,atropelamento - funcionário,401
+ac01 - Aci,veiculo parado,402
+ac01 - Aci,choque - outros,403
+ac03 - Aci,choque na praça  cabine,404
+ac02 - Aci,atropelamento - ambulante,405
+ac02 - Aci,queda de carro,406
+ac04 - Aci,choque - sinalização,407
+ac04 - Aci,choque - outros,408
+ac04 - Aci,atropelamento - funcionário,409
+ac04 - Aci,queda de carro,410
+ac04 - Aci,choque na praça  cabine,411
+ac04 - Aci,choque - meio fio,412
+ac04 - Aci,choque - cancela de pedagio,413
+ac04 - Aci,capotamento,414
+ac04 - Aci,objeto lançado contra veículo,415
+ac04 - Aci,tombamento,416
+ac04 - Aci,choque - defensa metálica,417
+ac04 - Aci,praca submarino,418
+ac04 - Aci,choque - arvore,419
+ac04 - Aci,objeto sobre a pista,420
+ac03 - Aci,atropelamento - ambulante,421
+ac01 - Aci,colisão lateral no mesmo sentido,422
+ac01 - Aci,atropelamento - morador,423
+ac04 - Aci,atropelamento de animal,424
+Com vítima,desatrelamento,425
+com vítima,choque - objeto fixo,426
+sem vítima,choque - objeto fixo,427
+sem vítima,derrapagem,428
+com vítima,derrapagem,429
+sem vítima,outros,430
+sem vítima,atropelamento - pedestre,431
+sem vítima,choque em objeto na pista,432
+com vítima,atropelamento de pedestre,433
+sem vítima,choque em objeto fixo,434
+sem vítima,saída de pista,435
+AC03 - Aci,choque - objeto fixo,436
+AC03 - Aci,colisão traseira,437
+AC03 - Aci,colisão lateral,438
+AC02 - Aci,capotamento,439
+AC02 - Aci,colisão traseira,440
+AC03 - Aci,queda de moto,441
+AC02 - Aci,engavetamento,442
+AC02 - Aci,queda de moto,443
+AC03 - Aci,capotamento,444
+AC02 - Aci,choque - objeto fixo,445
+AC01 - Aci,tombamento,446
+AC03 - Aci,atropelamento - animal,447
+AC03 - Aci,engavetamento,448
+AC02 - Aci,tombamento,449
+AC03 - Aci,colisão frontal,450
+AC03 - Aci,saída de pista,451
+AC02 - Aci,colisão lateral,452
+AC03 - Aci,tombamento,453
+AC04 - Atr,atropelamento - pedestre,454
+AC05 - Atr,atropelamento - pedestre,455
+AC03 - Aci,colisão transversal,456
+AC02 - Aci,colisão transversal,457
+AC04 - Atr,colisão traseira,458
+AC01 - Aci,queda de moto,459
+AC02 - Aci,saída de pista,460
+AC02 - Aci,colisão frontal,461
+AC02 - Aci,atropelamento - animal,462
+AC01 - Aci,colisão traseira,463
+AC02 - Aci,derrapagem,464
+AC04 - Atr,colisão frontal,465
+AC03 - Aci,derrapagem,466
+AC01 - Aci,capotamento,467
+AC02 - Aci,atropelamento - pedestre,468
+AC03 - Aci,nan,469
+AC01 - Aci,choque - objeto fixo,470
+AC04 - Atr,colisão lateral,471
+AC01 - Aci,atropelamento - pedestre,472
+AC03 - Aci,atropelamento - pedestre,473
+AC01 - Aci,colisão lateral,474
+AC01 - Aci,colisão frontal,475
+AC01 - Aci,colisão transversal,476
+AC02 - Aci,veiculo parado,477
+AC04 - Atr,atropelamento - funcionário,478
+AC01 - Aci,engavetamento,479
+AC02 - Aci,choque com objeto na pista,480
+AC03 - Aci,choque com objeto na pista,481
+AC03 - Aci,veiculo parado,482
+AC01 - Aci,atropelamento - animal,483
+AC04 - Atr,choque - objeto fixo,484
+AC01 - Aci,choque com objeto na pista,485
+AC02 - Aci,choque com objeto fixo,486
+AC03 - Aci,colisão com objeto móvel na pista ,487
+AC03 - Aci,choque com objeto fixo,488
+AC02 - Aci,colisão com objeto móvel na pista ,489
+AC01 - Aci,saída de pista,490
+AC02 - Aci,nan,491
+AC04 - Atr,atropelamento - animal,492
+AC05 - Atr,saída de pista,493
+AC04 - Atr,saída de pista,494
+sem vítima,choque - cancela de pedagio,495
+sem vítima,outros - sequência,496
+sem vítima,atropelamento - morador,497
+sem vítima,não def,498
+sem vítima,atropelamento - ciclista,499
+sem vítima,incêndio,500
+com vítima,não def,501
+sem vítima,não def.,502
+sem vítima,atropelamento - funcionário,503
+com vítima,incêndio,504
+sem vítima,atropelamento - andarilho,505
+3 - Aciden,colisão traseira,506
+1 - Aciden,queda de moto,507
+2 - Aciden,queda de moto,508
+2 - Aciden,tombamento,509
+2 - Aciden,colisão traseira,510
+2 - Aciden,colisão transversal,511
+3 - Aciden,colisão frontal,512
+3 - Aciden,choque - suporte de sinalização,513
+3 - Aciden,tombamento,514
+1 - Aciden,colisão transversal,515
+3 - Aciden,atropelamento de animal,516
+2 - Aciden,colisão frontal,517
+3 - Aciden,elemento de drenagem,518
+3 - Aciden,choque - arvore,519
+3 - Aciden,veiculo parado,520
+1 - Aciden,atropelamento - morador,521
+3 - Aciden,colisão lateral,522
+3 - Aciden,colisão transversal,523
+3 - Aciden,capotamento,524
+2 - Aciden,atropelamento - ciclista,525
+3 - Aciden,engavetamento,526
+2 - Aciden,colisão lateral,527
+3 - Aciden,choque - talude,528
+2 - Aciden,saida de pista,529
+3 - Aciden,saida de pista,530
+2 - Aciden,engavetamento,531
+2 - Aciden,choque - outros,532
+2 - Aciden,choque - poste,533
+2 - Aciden,veiculo parado,534
+3 - Aciden,queda de moto,535
+2 - Aciden,choque - talude,536
+3 - Aciden,objeto lançado contra veículo,537
+2 - Aciden,atropelamento - outros,538
+1 - Aciden,colisão frontal,539
+2 - Aciden,capotamento,540
+3 - Aciden,atropelamento - andarilho,541
+3 - Aciden,choque - outros,542
+1 - Aciden,tombamento,543
+2 - Aciden,choque - arvore,544
+2 - Aciden,outros,545
+2 - Aciden,elemento de drenagem,546
+ 2- Aciden,colisão lateral,547
+1 - Aciden,objeto lançado contra veículo,548
+2 - Aciden,atropelamento - andarilho,549
+ 2- Aciden,tombamento,550
+3 - Aciden,outros,551
+3 - Aciden,choque - poste,552
+2 - Aciden,atropelamento de animal,553
+1 - Aciden,atropelamento - andarilho,554
+ 2- Aciden,colisão transversal,555
+ 2- Aciden,colisão frontal,556
+ 2- Aciden,elemento de drenagem,557
+ 2- Aciden,capotamento,558
+3 - Aciden,objeto sobre a pista,559
+ 2- Aciden,saida de pista,560
+ 2- Aciden,colisão traseira,561
+2 - Aciden,objeto sobre a pista,562
+1 - Aciden,capotamento,563
+1 - Aciden,saida de pista,564
+1 - Aciden,atropelamento - ciclista,565
+1 - Aciden,atropelamento - sem informação,566
+1 - Aciden,colisão traseira,567
+1 - Aciden,colisão lateral,568
+2 - Aciden,atropelamento - ambulante,569
+1 - Aciden,choque - talude,570
+1 - Aciden,engavetamento,571
+2 - Aciden,choque - suporte de sinalização,572
+2 - Aciden,atropelamento - sem informação,573
+3 - Aciden,outros - sequência,574
+2 - Aciden,objeto lançado contra veículo,575
+2 - Aciden,outros - sequência,576
+2 - Aciden,atropelamento - usuário,577
+2 - Aciden,atropelamento - morador,578
+1 - Aciden,choque - poste,579
+1 - Aciden,choque - arvore,580
+3 - Aciden,choque - cancela de pedagio,581
+3 - Aciden,atropelamento - ciclista,582
+1 - Aciden,atropelamento de animal,583
+3 - Aciden,atropelamento - usuário,584
+1 - Aciden,atropelamento - usuário,585
+sem vítima,abalr.mesmo sentido,586
+sem vítima,abalr.transversal,587
+com vítima,outros tipos de acidente,588
+sem vítima,colisão com objeto fixo,589
+sem vítima,atropelamento,590
+com vítima,abalr.transversal,591
+sem vítima,outros tipos de acidente,592
+com vítima,colisão com objeto fixo,593
+com vítima,atropelamento,594
+sem vítima,abalr.sentido oposto,595
+com vítima,abalr.mesmo sentido,596
+com vítima,abalr.sentido oposto,597
+com vítima,atropelamento sem morte,598
+sem vítima,outros(especificar),599
+sem vítima,atropelamento sem morte,600
+com vítima,atropelamento com morte,601
+sem vítima,abalr. mesmo sentido,602
+sem vítima,abalr. sentido oposto,603
+com vítima,abalr. mesmo sentido,604
+sem vítima,abal. sentido oposto,605
+com vítima,abalroamento mesmo sentido,606
+sem vítima,abalroamento sentido oposto,607
+sem vítima,abalroamento transversal,608
+com vítima,abalroamento transversal,609
+com vítima,abalroamento sentido oposto,610
+sem vítima,abalroamento no mesmo sentido,611
+com vítima,abalroamento no mesmo sentido,612
+sem vítima,abalroamento mesmo sentido,613
+com vítima,abalr. sentido oposto.,614
+com vítima,outros tipos,615
+sem vítima,abalr. sentido oposto.,616
+sem vítima,saída de  pista,617
+com vítima,saída de  pista,618
+com vítima,abalroamento transversal.,619
+sem vítima,abalroamento transversal.,620
+com vítima,abalrroamento transversal.,621
+sem vítima,colisão objeto fixo,622
+sem vítima,atropelamento ,623
+sem vítima,abalroamento em sent.oposto,624
+com vítima,abalroamento em sent.oposto,625
+com vítima,atropelamento ,626
+com vítima,saída de pista ,627
+com vítima,colisão objeto fixo,628
+sem vítima,saída de pista ,629
+com vítima,abalroamento em sentido oposto,630
+sem vítima,abalroamento em sentido oposto,631
+sem vítima,atropelamento animal,632
+com vítima,atropelamento animal,633
+sem vítima,abalroamanento traversasl,634
+sem vítima,abalroamento  no mesmo sentido,635
+sem vítima,abalroamento mesmo sentido ,636
+sem vítima,colisão com veículo estacionado,637
+com vítima,abalr. transversal,638
+com vítima,abalr. sentido oposto,639
+com vítima,atropelamento de animal ,640
+sem vítima,atropelamento de animal ,641
+sem vítima,abalroamento trarnversal,642
+sem vítima,abalr. transversal,643
+sem vítima,abalroamento em mesmo sentido,644
+com vítima,abalromanemto mesmo sentido,645
+sem vítima,colisão frontal ,646
+sem vítima,abalroamente transversal,647
+com vítima,abalr.sent.oposto,648
+sem vítima,abalr.sent.oposto,649
+sem vítima,abalr.em mesmo sentido,650
+com vítima,ablr.sentido oposto,651
+com vítima,colisão ojeto fixo,652
+sem vítima,abal.mesmo sentido,653
+com vítima,abal.sent.oposto,654
+com vítima,abal. sentido oposto,655
+sem vítima,abal.mesmo.sentido,656
+sem vítima,abal.sentido. oposto,657
+sem vítima,abal.transversal,658
+sem vítima,abalroamento - transversal,659
+com vítima,abalroamento - sentido oposto,660
+sem vítima,abalroamento - mesmo sentido,661
+com vítima,abalroamento - mesmo sentido,662
+sem vítima,abalroamento - sentido oposto,663
+com vítima,colisão com veículo estac.,664
+Acidente c,colisão traseira,665
+Acidente c,colisão frontal,666
+Acidente s,abalr. transversal,667
+Acidente c,abalr. transversal,668
+Acidente s,outros tipos de acidente,669
+Acidente s,colisão com objeto fixo,670
+Acidente c,atropelamento,671
+Acidente c,outros tipos de acidente,672
+Acidente s,colisão traseira,673
+Acidente c,colisão com objeto fixo,674
+Acidente c,abalr. mesmo sentido,675
+Acidente s,abalr. sentido oposto,676
+Acidente s,abalr. mesmo sentido,677
+Acidente c,abalr. sentido oposto,678
+Acidente s,abalr.sentido oposto,679
+Acidente s,colisão frontal,680
+Acidente c,abalr.transversal,681
+Acidente s,abalr.transversal,682
+Acidente s,abalr.mesmo sentido,683
+Acidente c,abalr.mesmo sentido,684
+Acidente c,abalr.sentido oposto,685
+Acidente s,colisão transversal,686
+Acidente s,colisão lateral no mesmo sentido,687
+Acidente c,colisão transversal,688
+Acidente c,colisão lateral no mesmo sentido,689
+Acidente c,colisão lateral no sentido contrário,690
+Acidente c,colisão lateral,691
+Acidente c,choque - defensa metálica,692
+Acidente c,outros tipos,693
+Acidente s,choque - new jersey,694
+Acidente s,choque - defensa metálica,695
+Acidente s,choque - outros,696
+Acidente c,choque - outros,697
+Acidente s,colisão lateral no sentido contrário,698
+Acidente c,choque - new jersey,699
+Acidente c,saida de pista,700
+Acidente c,choque - sinalização,701
+Acidente c,atropelamento - pedestre,702
+Acidente c,objeto lançado contra veículo,703
+Acidente s,atropelamento - pedestre,704
+Acidente s,objeto lançado contra veículo,705
+Acidente c,choque na praça  cabine,706
+Acidente c,atropelamento - sem informação,707
+Acidente s,choque com objeto fixo,708
+Acidente c,colisão com ciclista,709
+Acidente s,colisão com ciclista,710
+Acidente s,veículo em chamas,711
+Acidente s,colisão lateral,712
+Acidente s,saida de pista,713
+Atropelame,atropelamento,714
+Acidente s,choque,715
+Acidente c,choque,716
+Acidente c,choque com objeto fixo,717
+Acidente s,atropelamento de bovino,718
+Acidente c,queda de ciclista,719
+Acidente s,queda de ciclista,720
+Acidente c,veículo em chamas,721
+Acidente s,atropelamento animal,722
+Acidente s,choque na cancela,723
+Acidente s,colisão,724
+Acidente s,atropelamento de equino,725
+Acidente c,colisão,726
+Acidente s,abalroamento mesmo sentido,727
+Acidente s,atropelamento de bubalino,728
+Acidente c,atropelamento de bubalino,729
+Acidente s,choque com veículo estacionado,730
+Acidente c,abalroamento mesmo sentido,731
+Acidente c,atropelamento de bovino,732
+Acidente c,abalroamento sentido oposto,733
+Acidente s,abalroamento sentido oposto,734
+Acidente s,abalroamento transversal,735
+Acidente c,atropelamento de equino,736
+Acidente c,choque com veículo estacionado,737
+Atropelame,atropelamento e fuga,738
+Acidente c,danos eventuais,739
+Acidente s,danos eventuais,740
+Acidente c,atropelamento animal,741
+Acidente c,queda de bicicleta,742
+Atropelame,colisão com ciclista,743
+Atropelame,atropelamento - ciclista,744
+Atropelame,atropelamento - morador,745
+Acidente s,elemento de drenagem,746
+Acidente s,veiculo em chamas,747
+Acidente c,choque - talude ou barranco,748
+Acidente c,atropelamento - morador,749
+Acidente c,choque - cancela de pedagio,750
+Acidente s,choque - talude ou barranco,751
+Acidente c,atropelamento - ciclista,752
+Acidente c,atropelamento - andarilho,753
+Acidente s,carreta deu l,754
+Acidente c,veiculo em chamas,755
+Acidente s,atropelamento - ciclista,756
+Acidente s,choque - cancela de pedagio,757
+Acidente c,elemento de drenagem,758
+Acidente s,choque na praça  cabine,759
+Acidente s,soterramento,760
+Acidente s,atropelamento - morador,761
+Acidente c,veiculo parado,762
+Acidente s,veiculo parado,763
+Acidente c,carreta deu l,764
+Acidente s,choque em objeto fixo,765
+Atropelame,atropelamento de pedestre caminhando,766
+Atropelame,atropelamento de pedestre atravessando,767
+Acidente s,choque em objeto na pista,768
+Acidente s,choque em barreira new jersey,769
+Acidente s,abalroamento longitudinal,770
+Acidente c,choque em objeto fixo,771
+Acidente c,abalroamento longitudinal,772
+Acidente s,choque em defensa,773
+Acidente c,choque em barreira new jersey,774
+Acidente c,choque em defensa,775
+Acidente c,choque em objeto na pista,776
+Acidente s,choque em veículo parado na pista,777
+Acidente c,atropelamento de pedestre atravessando,778
+Acidente c,choque em veículo parado na pista,779
+Acidente c,abalroamento transversal,780
+AC03 - Aci,choque em barreira new jersey,781
+AC03 - Aci,choque em objeto fixo,782
+AC04 - Atr,atropelamento de pedestre atravessando,783
+AC03 - Aci,abalroamento longitudinal,784
+AC02 - Aci,choque em defensa,785
+AC03 - Aci,choque em objeto na pista,786
+AC02 - Aci,choque em barreira new jersey,787
+AC03 - Aci,choque em defensa,788
+AC03 - Aci,atropelamento de animal,789
+AC02 - Aci,abalroamento longitudinal,790
+AC05 - Atr,atropelamento de pedestre atravessando,791
+AC02 - Aci,choque em objeto fixo,792
+AC03 - Aci,queda de carga,793
+AC02 - Aci,queda de ribanceira,794
+AC05 - Atr,atropelamento de pedestre caminhando,795
+AC03 - Aci,queda de ribanceira,796
+AC02 - Aci,atropelamento de animal,797
+AC04 - Atr,atropelamento de pedestre caminhando,798
+AC03 - Aci,outros,799
+AC02 - Aci,abalroamento transversal,800
+AC02 - Aci,choque talude,801
+AC01 - Aci,abalroamento longitudinal,802
+AC03 - Aci,choque em veículo parado na pista,803
+AC02 - Aci,choque em objeto na pista,804
+AC02 - Aci,queda de carga,805
+Acidente s,atropelamento de pedestre caminhando,806
+Acidente s,não def,807
+Acidente c,não def,808
+Atropelame,choque em barreira new jersey,809
+AC03 - Aci,choque talude,810
+AC03 - Aci,abalroamento transversal,811
+AC01 - Aci,choque talude,812
+AC01 - Aci,choque em barreira new jersey,813
+AC01 - Aci,choque em objeto fixo,814
+AC02 - Aci,atropelamento de pedestre atravessando,815
+AC02 - Aci,outros,816
+AC02 - Aci,choque em veículo parado na pista,817
+Acidente c,atropelamento de pedestre caminhando,818
+Atropelame,choque em objeto fixo,819
+Acidente s,atropelamento de pedestre atravessando,820
+Atropelame,colisão traseira,821
+com vítima,outros - sequência,822
+sem vítima,explosão,823
+sem vítima,atropelamento - ambulante,824
+com vítima,submersão,825
+com vítima,queda,826
+com vítima,choque - cancela de pedagio,827
+2 - Aciden,queda,828
+1 - Aciden,outros - sequência,829
+1 - Aciden,atropelamento - outros,830
+1 - Aciden,choque - suporte de sinalização,831
+2 - Aciden,choque - cancela de pedagio,832
+3 - Aciden,choque - objeto não identificado,833
+1 - Aciden,queda,834
+3 - Aciden,atropelamento - ambulante,835
+1 - Aciden,veiculo parado,836
+3 - Aciden,queda,837
+1 - Aciden,outros,838
+sem vítima,colisão com veículos (traseira),839
+sem vítima,colisão c/ obstáculos,840
+com vítima,colisão c/ obstáculos,841
+com vítima,colisão com veículos (traseira),842
+com vítima,colisão com veículos (frontal),843
+com vítima,tombamento de moto,844
+sem vítima,saídas de pista,845
+sem vítima,colisão com veículos (frontal),846
+sem vítima,tombamento de moto,847
+com vítima,saídas de pista,848
+com vítima,colisão lateral - sentido contrário,849
+sem vítima,colisão com obstáculos,850
+com vítima,colisão lateral - mesmo sentido,851
+com vítima,colisão traseira - veículos,852
+sem vítima,colisão traseira - veículos,853
+com vítima,colisão frontal - veículos,854
+sem vítima,colisão frontal - veículos,855
+sem vítima,colisão lateral - mesmo sentido,856
+sem vítima,colisão lateral - sentido contrário,857
+com vítima,colisão com obstáculos,858
+com vítima,acidente - outra natureza,859
+sem vítima,atropelamento de animais,860
+com vítima,atropelamento de animais,861
+sem vítima,atropelamento de pedestre,862
+Acidente s,saídas de pista,863
+Acidente s,colisão c/ obstáculos,864
+Acidente s,colisão com veículos (traseira),865
+Acidente c,atropelamento de animais,866
+Acidente s,atropelamento de animais,867
+Acidente c,colisão com veículos (traseira),868
+Acidente c,colisão c/ obstáculos,869
+Acidente c,saídas de pista,870
+Acidente c,colisão com veículos (frontal),871
+Acidente c,tombamento de moto,872
+Acidente s,tombamento de moto,873
+Acidente s,colisão com veículos (frontal),874
+Atropelame,colisão com veículos (traseira),875
+Acidente c,atropelamento de pedestre,876
+Atropelame,tombamento de moto,877
+Atropelame,colisão lateral no mesmo sentido,878
+AC03 - Aci,colisão - traseira,879
+AC02 - Aci,colisão - lateral,880
+AC02 - Aci,colisão - transversal,881
+AC03 - Aci,choque defensa,882
+AC02 - Aci,choque - meio fio,883
+AC03 - Aci,objeto sobre a pista,884
+AC01 - Aci,colisão - frontal,885
+AC03 - Aci,tombamento de moto,886
+AC02 - Aci,colisão - traseira,887
+AC02 - Aci,choque - sinalização,888
+AC03 - Aci,colisão - transversal,889
+AC03 - Aci,choque - meio fio,890
+AC02 - Aci,tombamento de moto,891
+AC03 - Aci,colisão - lateral,892
+AC02 - Aci,choque defensa,893
+AC02 - Aci,colisão - frontal,894
+AC03 - Aci,choque - sinalização,895
+AC02 - Aci,atropelamento - usuário,896
+AC03 - Aci,choque barreira,897
+AC05 - Atr,atropelamento - morador/trabalhador/estudante,898
+AC04 - Atr,atropelamento - morador/trabalhador/estudante,899
+AC02 - Aci,choque com veículo na faixa de rolamento,900
+AC01 - Aci,colisão - traseira,901
+AC02 - Aci,atropelamento - morador/trabalhador/estudante,902
+AC01 - Aci,colisão - lateral,903
+AC04 - Atr,atropelamento - usuário,904
+AC04 - Atr,atropelamento - andarilho,905
+AC03 - Aci,choque contra viaduto/ponte,906
+AC01 - Aci,colisão - transversal,907
+Atropelame,outros,908
+Acidente s,atropelamento - morador/trabalhador/estudante,909
+Atropelame,atropelamento - suicida,910
+Atropelame,atrolemento,911
+Atropelame,colisão - traseira,912
+Acidente s,queda em ribanceira,913
+Acidente c,choque praça - cabine,914
+Acidente c,atropelamento - ambulante,915
+sem vï¿½tima,saida de pista,916
+com vï¿½tima,choque - suporte de sinalizaï¿½ï¿½o,917
+sem vï¿½tima,choque - talude,918
+sem vï¿½tima,colisï¿½o traseira,919
+com vï¿½tima,capotamento,920
+com vï¿½tima,colisï¿½o lateral,921
+com vï¿½tima,outros - sequï¿½ncia,922
+com vï¿½tima,atropelamento - morador,923
+sem vï¿½tima,outros,924
+com vï¿½tima,colisï¿½o traseira,925
+com vï¿½tima,saida de pista,926
+sem vï¿½tima,elemento de drenagem,927
+com vï¿½tima,outros,928
+sem vï¿½tima,colisï¿½o lateral,929
+sem vï¿½tima,atropelamento de animal,930
+sem vï¿½tima,capotamento,931
+sem vï¿½tima,queda de moto,932
+com vï¿½tima,queda de moto,933
+com vï¿½tima,engavetamento,934
+sem vï¿½tima,engavetamento,935
+sem vï¿½tima,outros - sequï¿½ncia,936
+com vï¿½tima,tombamento,937
+sem vï¿½tima,tombamento,938
+com vï¿½tima,choque - talude,939
+sem vï¿½tima,choque - suporte de sinalizaï¿½ï¿½o,940
+sem vï¿½tima,colisï¿½o transversal,941
+com vï¿½tima,elemento de drenagem,942
+com vï¿½tima,atropelamento de animal,943
+sem vï¿½tima,choque - outros,944
+com vï¿½tima,veiculo parado,945
+com vï¿½tima,choque - outros,946
+sem vï¿½tima,veiculo parado,947
+com vï¿½tima,choque - arvore,948
+com vï¿½tima,objeto lanï¿½ado contra veï¿½culo,949
+com vï¿½tima,atropelamento - andarilho,950
+sem vï¿½tima,objeto sobre a pista,951
+com vï¿½tima,colisï¿½o frontal,952
+sem vï¿½tima,choque - arvore,953
+com vï¿½tima,atropelamento - ciclista,954
+com vï¿½tima,atropelamento - usuï¿½rio,955
+com vï¿½tima,atropelamento - outros,956
+com vï¿½tima,objeto sobre a pista,957
+sem vï¿½tima,colisï¿½o frontal,958
+com vï¿½tima,atropelamento - sem informaï¿½ï¿½o,959
+sem vï¿½tima,choque - cancela de pedagio,960
+com vï¿½tima,atropelamento - ambulante,961
+com vï¿½tima,choque - poste,962
+sem vï¿½tima,choque - poste,963
+com vï¿½tima,atropelamento - funcionï¿½rio,964
+com vï¿½tima,colisï¿½o transversal,965
+sem vï¿½tima,objeto lanï¿½ado contra veï¿½culo,966
+sem vï¿½tima,nan,967
+sem vï¿½tima,atropelamento - ciclista,968
+sem vï¿½tima,choque - objeto nï¿½o identificado,969
+com vï¿½tima,nan,970
+sem vï¿½tima,atropelamento - andarilho,971
+sem vï¿½tima,soterramento,972
+sem vï¿½tima,atropelamento - outros,973
+com vï¿½tima,incï¿½ndio,974
+sem vï¿½tima,atropelamento - morador,975
+sem vï¿½tima,submersï¿½o,976
+com vï¿½tima,submersï¿½o,977
+sem vï¿½tima,atropelamento - sem informaï¿½ï¿½o,978
+com vï¿½tima,choque - cancela de pedagio,979
+sem vï¿½tima,atropelamento - ambulante,980
+sem vï¿½tima,atropelamento - funcionï¿½rio,981
+com vï¿½tima,explosï¿½o,982
+sem vï¿½tima,atropelamento - animal,983
+com vï¿½tima,atropelamento - animal,984
+com vï¿½tima,choque - objeto nï¿½o identificado,985
+sem vï¿½tima,transposiï¿½ï¿½o de pista,986
+com vï¿½tima,transposiï¿½ï¿½o de pista,987
+3 - Aciden,colisï¿½o lateral,988
+3 - Aciden,choque - suporte de sinalizaï¿½ï¿½o,989
+3 - Aciden,colisï¿½o traseira,990
+2 - Aciden,colisï¿½o lateral,991
+2 - Aciden,colisï¿½o traseira,992
+2 - Aciden,colisï¿½o frontal,993
+2 - Aciden,colisï¿½o transversal,994
+3 - Aciden,colisï¿½o frontal,995
+1 - Aciden,colisï¿½o traseira,996
+3 - Aciden,colisï¿½o transversal,997
+2 - Aciden,choque - suporte de sinalizaï¿½ï¿½o,998
+1 - Aciden,atropelamento - usuï¿½rio,999
+2 - Aciden,atropelamento - usuï¿½rio,1000
+2 - Aciden,incï¿½ndio,1001
+3 - Aciden,objeto lanï¿½ado contra veï¿½culo,1002
+1 - Aciden,choque - suporte de sinalizaï¿½ï¿½o,1003
+1 - Aciden,colisï¿½o lateral,1004
+1 - Aciden,elemento de drenagem,1005
+2 - Aciden,atropelamento - sem informaï¿½ï¿½o,1006
+2 - Aciden,objeto lanï¿½ado contra veï¿½culo,1007
+1 - Aciden,colisï¿½o frontal,1008
+1 - Aciden,atropelamento - sem informaï¿½ï¿½o,1009
+2 - Aciden,atropelamento - funcionï¿½rio,1010
+3 - Aciden,soterramento,1011
+1 - Aciden,choque - outros,1012
+2 - Aciden,choque - objeto nï¿½o identificado,1013
+3 - Aciden,outros - sequï¿½ncia,1014
+1 - Aciden,atropelamento - funcionï¿½rio,1015
+3 - Aciden,transposiï¿½ï¿½o de pista,1016
+2 - Aciden,transposiï¿½ï¿½o de pista,1017
+3 - Aciden,choque - objeto nï¿½o identificado,1018
+1 - Aciden,objeto sobre a pista,1019
+1 - Aciden,colisï¿½o transversal,1020
+3 - Aciden,atropelamento - sem informaï¿½ï¿½o,1021
+Sem vï¿½tima,choque,1022
+Sem vï¿½tima,atropelamento de animal,1023
+Sem vï¿½tima,colisï¿½o traseira,1024
+Sem vï¿½tima,queda de moto,1025
+Sem vï¿½tima,colisï¿½o lateral no mesmo sentido,1026
+Sem vï¿½tima,capotamento,1027
+Sem vï¿½tima,engavetamento,1028
+Com vï¿½tima,choque,1029
+Com vï¿½tima,colisï¿½o lateral no mesmo sentido,1030
+Com vï¿½tima,atropelamento de pedestre,1031
+Sem vï¿½tima,tombamento,1032
+Sem vï¿½tima,saida de pista,1033
+Com vï¿½tima,engavetamento,1034
+Sem vï¿½tima,atropelamento de pedestre,1035
+Com vï¿½tima,capotamento,1036
+Sem vï¿½tima,colisï¿½o transversal,1037
+Com vï¿½tima,colisï¿½o traseira,1038
+Com vï¿½tima,tombamento,1039
+Com vï¿½tima,colisï¿½o frontal,1040
+Com vï¿½tima,queda de moto,1041
+Sem vï¿½tima,acidentes de outra natureza,1042
+Com vï¿½tima,atropelamento de animal,1043
+Com vï¿½tima,acidentes de outra natureza,1044
+Sem vï¿½tima,colisï¿½o frontal,1045
+Com vï¿½tima,saida de pista,1046
+Com vï¿½tima,colisï¿½o transversal,1047
+ac02 - Aci,atropelamento - sem informação,1048
+ac01 - Aci,choque - arvore,1049
+ac01 - Aci,atropelamento de animal,1050
+ac01 - Aci,atropelamento - ambulante,1051
+ac01 - Aci,choque - talude ou barranco,1052
+ac04 - Aci,queda de ciclista,1053
+ac04 - Aci,colisão traseira,1054
+ac01 - Aci,colisão lateral no sentido contrário,1055
+ac04 - Aci,choque - talude ou barranco,1056
+ac04 - Aci,elemento de drenagem,1057
+ac04 - Aci,queda de moto,1058
+sem vítima,soterramento,1059
+com vítima,travessia canteiro central,1060
+sem vítima,travessia canteiro central,1061
+sem vítima,problema mecanico / eletrico,1062
+com vítima,soterramento,1063
+sem vítima,praca submarino,1064
+sem vítima,atropelamento - sem informação,1065
+1 - Aciden,atropelamento - ambulante,1066
+3 - Aciden,travessia canteiro central,1067
+3 - Aciden,atropelamento - outros,1068
+2 - Aciden,atropelamento - funcionário,1069
+1 - Aciden,atropelamento - funcionário,1070
+2 - Aciden,travessia canteiro central,1071
+2 - Aciden,choque - objeto não identificado,1072
+3 - Aciden,incêndio,1073
+3 - Aciden,atropelamento - morador,1074
+3 - Aciden,atropelamento - sem informação,1075
+com vítima,choque em objeto na pista,1076
+sem vítima,queda de carga,1077
+sem vítima,atropelamento - pedestre atravessando,1078
+sem vítima,choque-outros,1079
+AC03 - ACI,saida de pista,1080
+AC03 - ACI,colisão lateral,1081
+AC02 - ACI,capotamento,1082
+AC02 - ACI,colisão traseira,1083
+AC02 - ACI,colisão transversal,1084
+AC03 - ACI,queda de moto,1085
+AC03 - ACI,colisão traseira,1086
+AC03 - ACI,tombamento,1087
+AC01 - ACI,tombamento,1088
+AC02 - ACI,colisão frontal,1089
+AC02 - ACI,colisão lateral,1090
+AC03 - ACI,colisão transversal,1091
+AC02 - ACI,engavetamento,1092
+AC03 - ACI,capotamento,1093
+AC02 - ACI,queda de moto,1094
+AC03 - ACI,atropelamento de animal,1095
+AC02 - ACI,tombamento,1096
+AC03 - ACI,choque - poste,1097
+AC03 - ACI,veiculo parado,1098
+AC03 - ACI,engavetamento,1099
+AC02 - ACI,saida de pista,1100
+AC01 - ACI,atropelamento - usuário,1101
+AC02 - ACI,atropelamento - outros,1102
+AC01 - ACI,colisão frontal,1103
+AC02 - ACI,atropelamento - andarilho,1104
+AC03 - ACI,choque - outros,1105
+AC01 - ACI,colisão traseira,1106
+AC03 - ACI,colisão frontal,1107
+AC03 - ACI,objeto lançado contra veículo,1108
+AC02 - ACI,choque - poste,1109
+AC02 - ACI,atropelamento - ciclista,1110
+AC02 - ACI,outros,1111
+AC01 - ACI,colisão transversal,1112
+AC02 - ACI,atropelamento - usuário,1113
+AC02 - ACI,veiculo parado,1114
+AC02 - ACI,choque - suporte de sinalização,1115
+AC01 - ACI,veiculo parado,1116
+AC03 - ACI,outros,1117
+AC03 - ACI,elemento de drenagem,1118
+AC01 - ACI,colisão lateral,1119
+AC01 - ACI,capotamento,1120
+AC02 - ACI,atropelamento de animal,1121
+AC03 - ACI,choque - suporte de sinalização,1122
+AC02 - ACI,choque - arvore,1123
+AC03 - ACI,atropelamento - ciclista,1124
+AC03 - ACI,choque - objeto não identificado,1125
+AC03 - ACI,choque - arvore,1126
+AC02 - ACI,objeto sobre a pista,1127
+AC02 - ACI,choque - outros,1128
+AC02 - ACI,atropelamento - morador,1129
+AC01 - ACI,queda de moto,1130
+AC03 - ACI,objeto sobre a pista,1131
+AC01 - ACI,atropelamento - andarilho,1132
+AC02 - ACI,choque - talude,1133
+AC01 - ACI,atropelamento - ciclista,1134
+AC03 - ACI,choque - talude,1135
+AC02 - ACI,elemento de drenagem,1136
+AC01 - ACI,engavetamento,1137
+AC03 - ACI,atropelamento - andarilho,1138
+AC01 - ACI,elemento de drenagem,1139
+AC01 - ACI,outros,1140
+AC02 - ACI,objeto lançado contra veículo,1141
+AC03 - ACI,atropelamento - usuário,1142
+AC01 - ACI,saida de pista,1143
+AC01 - ACI,choque - outros,1144
+AC02 - ACI,atropelamento - funcionário,1145
+AC01 - ACI,choque - poste,1146
+AC01 - ACI,choque - suporte de sinalização,1147
+AC02 - ACI,atropelamento - ambulante,1148
+AC01 - ACI,atropelamento - ambulante,1149
+AC01 - ACI,choque - talude,1150
+AC01 - ACI,atropelamento de animal,1151
+AC03 - ACI,atropelamento - ambulante,1152
+sem vítima,choque contra objeto fixo,1153
+com vítima,choque contra objeto fixo,1154
+com vítima,atropelamento  de pedestre,1155
+com vítima,atropelamento de ciclista,1156
+sem vítima,choque na praça - cabine,1157
+sem vítima,choque contra objeto na faixa de rolamento,1158
+com vítima,choque contra objeto na faixa de rolamento,1159
+sem vítima, incidente - choque na praça - cancela,1160
+sem vítima,atropelamento de ciclista,1161
+sem vítima,queda de carga sobre a pista,1162
+com vítima,queda de carga sobre a pista,1163
+sem vítima,incidente,1164
+sem vítima,colisão na praça - cancela,1165
+sem vítima, incidente - colisão na praça - cancela,1166
+com vítima,colisão na praça - cancela,1167
+com vítima,incidente,1168
+com vítima,choque contra veículo no acostamento,1169
+com vítima,choque na praça - cabine,1170
+sem vítima,atropelamento  de pedestre,1171
+sem vítima,choque contra veículo no acostamento,1172
+com vítima,não localizado / evadiu-se,1173
+AC3 - Acid,tombamento de moto,1174
+AC2 - Acid,colisão transversal,1175
+AC2 - Acid,colisão frontal,1176
+AC3 - Acid,engavetamento,1177
+AC3 - Acid,saída de pista,1178
+AC3 - Acid,colisão frontal,1179
+AC3 - Acid,colisão traseira,1180
+AC1 - Acid,colisão frontal,1181
+AC2 - Acid,atropelamento  de pedestre,1182
+AC2 - Acid,colisão traseira,1183
+AC2 - Acid,saída de pista,1184
+AC2 - Acid,colisão lateral,1185
+AC2 - Acid,tombamento de moto,1186
+AC3 - Acid,colisão transversal,1187
+AC2 - Acid,tombamento,1188
+AC3 - Acid,capotamento,1189
+AC3 - Acid,tombamento,1190
+AC3 - Acid,colisão lateral,1191
+AC2 - Acid,choque contra objeto fixo,1192
+AC3 - Acid,atropelamento de animal,1193
+AC1 - Acid,colisão traseira,1194
+Acidente c,atropelamento  de pedestre,1195
+Acidente s,incidente,1196
+Acidente s,choque na praça - cabine,1197
+Acidente s,choque contra objeto fixo,1198
+Acidente c,choque contra objeto fixo,1199
+Acidente c,choque contra objeto na faixa de rolamento,1200
+Acidente s,choque contra objeto na faixa de rolamento,1201
+Acidente s,queda de carga sobre a pista,1202
+Acidente c,atropelamento de ciclista,1203
+Acidente c,incidente,1204
+com vítima,sequência,1205
+sem vítima,sequência,1206
+ASV - Acid,choque contra objeto fixo,1207
+AV - Acide,colisão traseira,1208
+AV - Acide,colisão frontal,1209
+ASV - Acid,colisão traseira,1210
+ASV - Acid,saida de pista,1211
+ASV - Acid,engavetamento,1212
+ASV - Acid,colisão transversal,1213
+ASV - Acid,tombamento,1214
+AV - Acide,atropelamento de animal,1215
+ASV - Acid,queda de moto,1216
+AV - Acide,colisão transversal,1217
+AV - Acide,sequência,1218
+AV - Acide,outros,1219
+ASV - Acid,colisão lateral,1220
+AV - Acide,queda de moto,1221
+ASV - Acid,sequência,1222
+AV - Acide,capotamento,1223
+AV - Acide,colisão lateral,1224
+AV - Acide,atropelamento - ciclista,1225
+AV - Acide,atropelamento de pedestre,1226
+AF - Acide,saida de pista,1227
+ASV - Acid,capotamento,1228
+AV - Acide,saida de pista,1229
+AV - Acide,engavetamento,1230
+AF - Acide,colisão lateral,1231
+ASV - Acid,atropelamento de animal,1232
+A PP - Aci,saida de pista,1233
+AF - Acide,atropelamento de pedestre,1234
+AF - Acide,colisão frontal,1235
+A PP - Aci,choque contra objeto fixo,1236
+ASV - Acid,colisão frontal,1237
+ASV - Acid,outros,1238
+AV - Acide,tombamento,1239
+A PPV - Ac,colisão frontal,1240
+AF - Acide,colisão traseira,1241
+AF - Acide,engavetamento,1242
+A PP - Aci,colisão traseira,1243
+AV - Acide,choque contra objeto fixo,1244
+AF - Acide,tombamento,1245
+AF - Acide,colisão transversal,1246
+AF - Acide,choque contra objeto fixo,1247
+ASV - Acid,atropelamento - ciclista,1248
+AF - Acide,atropelamento - ciclista,1249
+AF - Acide,atropelamento de animal,1250
+ASV - Acid,atropelamento de pedestre,1251
+AF - Acide,queda de moto,1252
+A PPV - Ac,colisão traseira,1253
+AF - Acide,sequência,1254
+AF - Acide,outros,1255
+A PP - Aci,outros,1256
+A PP - Aci,tombamento,1257
+A PP - Aci,sequência,1258
+A PPF - Ac,tombamento,1259
+AF - Acide,choque - outros,1260
+A PPF - Ac,colisão frontal,1261
+A PPV - Ac,sequência,1262
+AF - Acide,capotamento,1263
+A PPV - Ac,saida de pista,1264
+A PPV - Ac,tombamento,1265
+A PP - Aci,colisão lateral,1266
+A PPV - Ac,colisão transversal,1267
+A PP - Aci,engavetamento,1268
+ASV - Acid,choque - cancela de pedagio,1269
+A PP - Aci,incêndio,1270
+sem vítima,colisão - traseira,1271
+sem vítima,colisão - lateral,1272
+sem vítima,choque praça - cabine,1273
+sem vítima,colisão - transversal,1274
+com vítima,choque com veículo na faixa de,1275
+sem vítima,choque defensa,1276
+sem vítima,choque barreira,1277
+sem vítima,choque praça,1278
+sem vítima,choque talude,1279
+sem vítima,colisão - frontal,1280
+sem vítima,choque - pilar,1281
+com vítima,choque veículo parado na pista,1282
+sem vítima,choque veículo parado na pista,1283
+com vítima,atropelamento ciclista,1284
+AC03 - Aci,choque - poste,1285
+AC02 - Aci,choque veículo parado na pista,1286
+AC03 - Aci,choque veículo parado na pista,1287
+AC02 - Aci,atropelamento,1288
+AC03 - Aci,choque praça,1289
+AC03 - Aci,colisão - frontal,1290
+ac01 - Aci,choque - defensa,1291
+ac02 - Aci,choque - defensa,1292
+ac03 - Aci,choque - defensa,1293
+ac03 - Aci,atropelamento - pedestre,1294
+in21 - Suí,queda de ponte / viaduto,1295
+ac02 - Aci,choque - veículo parado na pista,1296
+ac02 - Aci,atropelamento ciclista,1297
+ac03 - Aci,choque - veículo parado na pista,1298
+ac02 - Aci,choque - barreira,1299
+ac03 - Aci,choque - barreira,1300
+ac03 - Aci,choque - praça,1301
+ac01 - Aci,choque - veículo parado na pista,1302
+02 - Acide,colisão traseira,1303
+03 - Acide,choque - canaleta,1304
+03 - Acide,colisão traseira,1305
+02 - Acide,capotamento,1306
+02 - Acide,colisão lateral no sentido contrário,1307
+03 - Acide,saida de pista,1308
+02 - Acide,saida de pista,1309
+02 - Acide,tombamento,1310
+02 - Acide,colisão transversal,1311
+03 - Acide,choque - talude ou barranco,1312
+03 - Acide,colisão lateral no mesmo sentido,1313
+ac03 - Aci,choque - canaleta,1314
+ac01 - Aci,atropelamento ciclista,1315
+ac02 - Aci,choque - objeto na pista,1316
+ac02 - Aci,choque - canaleta,1317
+ac03 - Aci,choque - caixa de captação/fibra,1318
+ac02 - Aci,choque - pilar,1319
+ac03 - Aci,choque - pilar,1320
+ac02-Acide,atropelamento - pedestre,1321
+ac03-Acide,choque - canaleta,1322
+ac03-Acide,choque - praça,1323
+ac02-Acide,choque - new jersey,1324
+ac02-Acide,choque - arvore,1325
+ac01-Acide,choque - poste,1326
+ac01-Acide,atropelamento ciclista,1327
+ac02-Acide,atropelamento ciclista,1328
+ac02-Acide,atropelamento - funcionário,1329
+ac01-Acide,atropelamento - pedestre,1330
+ac03-Acide,choque - barreira,1331
+ac02-Acide,choque - poste,1332
+ac02-Acide,atropelamento - sem informação,1333
+ac02-Acide,choque - talude ou barranco,1334
+ac02-Acide,choque - sinalização,1335
+ac01-Acide,capotamento,1336
+ac01-Acide,atropelamento de animal,1337
+ac02-Acide,choque - barreira,1338
+ac02-Acide,choque - canaleta,1339
+ac02-Acide,choque - pilar,1340
+ac03-Acide,choque - talude ou barranco,1341
+ac02-Acide,choque - veículo parado na pista,1342
+ac01-Acide,queda de ponte / viaduto,1343
+ac02-Acide,choque - objeto na pista,1344
+ac01-Acide,atropelamento - sem informação,1345
+ac03-Acide,atropelamento ciclista,1346
+op26-Exerc,atropelamento - pedestre,1347
+op26-Exerc,colisão traseira,1348
+ac03 - Aci,atropelamento ciclista,1349
+ac02-Acide,choque - praça,1350
+ac02-Acide,"queda de veículo em ribanceira, ponte ou viaduto",1351
+ac01-Acide,queda de carro,1352
+ac01-Acide,choque - meio fio,1353
+ac03-Acide,"queda de veículo em ribanceira, ponte ou viaduto",1354
+ac01-Acide,"queda de veículo em ribanceira, ponte ou viaduto",1355
+ac01 - Aci,saida de pista,1356
+ac03 - Aci,choque - painel propaganda,1357
+ac02 - Aci,choque - praça,1358
+ac02 - Aci,choque - caixa de captação/fibra,1359
+ac03-Acide,choque - veículo parado na pista,1360
+ac01-Acide,atropelamento - morador,1361
+ac03-Acide,choque - cancela de pedagio,1362
+ac01 - Aci,choque - meio fio,1363
+ac01 - Aci,"queda de veículo em ribanceira, ponte ou viaduto",1364
+3 - Aciden,atropelamento - funcionário,1365
+2 - Aciden,"choque - defensa, barreira ou ",1366
+3 - Aciden,choque - suporte de sinalizaç,1367
+3 - Aciden,"choque - defensa, barreira ou ",1368
+1 - Aciden,"choque - defensa, barreira ou ",1369
+3 - Aciden,nan,1370
+1 - Aciden,atropelamento - sem informaç,1371
+2 - Aciden,atropelamento de an,1372
+3 - Aciden,choque - suporte de,1373
+2 - Aciden,atropelamento - cicli,1374
+3 - Aciden,"choque - defensa, b",1375
+2 - Aciden,"choque - defensa, b",1376
+1 - Aciden,atropelamento - and,1377
+2 - Aciden,atropelamento - mor,1378
+2 - Aciden,choque - suporte de,1379
+2 - Aciden,atropelamento - and,1380
+3 - Aciden,atropelamento - cicli,1381
+3 - Aciden,"choque - defensa, ",1382
+2 - Aciden,"choque - defensa, ",1383
+2 - Aciden,atropelamento de a,1384
+1 - Aciden,atropelamento - mo,1385
+2 - Aciden,atropelamento - cic,1386
+3 - Aciden,choque - suporte d,1387
+2 - Aciden,choque - suporte d,1388
+2 - Aciden,atropelamento - mo,1389
+1 - Aciden,atropelamento - cic,1390
+ac02 - Aci,nan,1391
+ac01 - Aci,nan,1392
+ac02 - Aci,colisão lateral,1393
+ac02 - Aci,queda,1394
+ac01 - Aci,colisão lateral,1395
+ac02 - Aci,atropelamento - usuário,1396
+ac02 - Aci,atropelamento - animal,1397
+ac01 - Aci,atropelamento - usuário,1398
+ac02 - Aci,atropelamento - outros,1399
+ac02 - Aci,incêndio,1400
+sem vítima,outros - seguências,1401
+ac02 - Aci,outros - seguências,1402
+ac01 - Aci,carreta deu l,1403
+sem vítima,outros - sequências,1404
+ac02 - Aci,outros - sequências,1405
+ac01 - Aci,outros - sequências,1406
+ac02 - Aci,choque - suporte de sinalização,1407
+ac01 - Aci,queda,1408
+ac01 - Aci,atropelamento - animal,1409
+ac01 - Aci,queda de ciclista,1410
+ac02 - Aci,choque - objeto não identificado,1411
+ac01 - Aci,choque - poste,1412
+ac01 - Aci,atropelamento - outros,1413
+ac01 - Aci,objeto lançado contra veículo,1414
+ac01 - Aci,choque - suporte de sinalização,1415
+sem vítima,choque - poste/,1416
+ac02 - Aci,choque - poste/,1417
+sem vítima,choque- placa/suporte sinalização,1418
+ac02 - Aci,choque- placa/suporte sinalização,1419
+sem vítima,choque- poste/equipamento,1420
+ac02 - Aci,queda em ribanceira,1421
+sem vítima,choque - defensa,1422
+ac02 - Aci,atropelamento - morador/trabalhador,1423
+ac01 - Aci,choque - barreira,1424
+sem vítima,choque - barreira,1425
+ac02 - Aci,choque- poste/equipamento,1426
+sem vítima,atropelamento - morador/trabalhador,1427
+sem vítima,queda em ribanceira,1428
+ac01 - Aci,choque - objeto não identificado,1429
+sem vítima,choque - cabine de pedágio,1430
+sem vítima,queda de ponte/viaduto,1431
+ac03 - Aci,colisão lateral,1432
+ac03 - Aci,nan,1433
+ac03 - Aci,choque- placa/suporte sinalização,1434
+ac03 - Aci,choque- poste/equipamento,1435
+ac03 - Aci,atropelamento - morador,1436
+ac03 - Aci,queda em ribanceira,1437
+ac03 - Aci,choque - cabine de pedágio,1438
+ac03 - Aci,atropelamento - esportista/romeiro,1439
+ac03 - Aci,atropelamento - usuário,1440
+ac01 - Aci,queda de ponte/viaduto,1441
+ac03 - Aci,atropelamento - sem informação,1442
+ac01 - Aci,atropelamento - morador/trabalhador,1443
+Acidente c,choque - talude,1444
+Acidente c,queda em ribanceira,1445
+Acidente c,choque - defensa,1446
+Acidente c,choque- placa/suporte sinalização,1447
+Acidente c,choque - barreira,1448
+Acidente c,atropelamento - outros,1449
+Acidente c,atropelamento - morador/trabalhador,1450
+Acidente c,choque - cabine de pedágio,1451
+Acidente c,choque- poste/equipamento,1452
+Acidente c,choque - objeto não identificado,1453
+AC03-ACIDE,tombamento,1454
+AC02-ACIDE,tombamento,1455
+AC03-ACIDE,colisão traseira,1456
+AC03-ACIDE,saida de pista,1457
+AC03-ACIDE,capotamento,1458
+AC03-ACIDE,atropelamento de animal,1459
+AC02-ACIDE,capotamento,1460
+AC02-ACIDE,colisão frontal,1461
+AC03-ACIDE,choque - suporte de sinalização,1462
+AC02-ACIDE,colisão transversal,1463
+AC03-ACIDE,colisão frontal,1464
+AC02-ACIDE,choque - outros,1465
+AC02-ACIDE,veiculo parado,1466
+AC02-ACIDE,colisão lateral,1467
+AC02-ACIDE,colisão traseira,1468
+AC03-ACIDE,choque - talude,1469
+AC02-ACIDE,saida de pista,1470
+AC03-ACIDE,colisão lateral,1471
+AC03-ACIDE,engavetamento,1472
+AC02-ACIDE,queda de moto,1473
+AC03-ACIDE,veiculo parado,1474
+AC03-ACIDE,"choque - defensa, barreira ou meio fio",1475
+AC03-ACIDE,choque - obstáculo fixo,1476
+AC01-ACIDE,colisão lateral,1477
+AC01-ACIDE,colisão frontal,1478
+AC01-ACIDE,veiculo parado,1479
+AC01-ACIDE,atropelamento - pedestre,1480
+AC03-ACIDE,choque - arvore,1481
+AC03-ACIDE,elemento de drenagem,1482
+AC02-ACIDE,engavetamento,1483
+AC01-ACIDE,capotamento,1484
+AC02-ACIDE,atropelamento de animal,1485
+AC01-ACIDE,colisão traseira,1486
+AC03-ACIDE,queda de moto,1487
+AC03-ACIDE,carreta deu l,1488
+AC01-ACIDE,atropelamento - sem informação,1489
+AC01-ACIDE,tombamento,1490
+AC02-ACIDE,"choque - defensa, barreira ou meio fio",1491
+AC03-ACIDE,colisão transversal,1492
+AC02-ACIDE,atropelamento - pedestre,1493
+AC03-ACIDE,choque - outros,1494
+AC01-ACIDE,atropelamento de animal,1495
+AC02-ACIDE,atropelamento - funcionário,1496
+AC02-ACIDE,carreta deu l,1497
+AC01-ACIDE,saida de pista,1498
+AC02-ACIDE,choque - poste,1499
+AC03-ACIDE,objeto lançado contra veículo,1500
+AC02-ACIDE,atropelamento - ambulante,1501
+AC01-ACIDE,engavetamento,1502
+AC02-ACIDE,atropelamento - ciclista,1503
+AC01-ACIDE,choque - outros,1504
+AC01-ACIDE,atropelamento - ciclista,1505
+AC03-ACIDE,atropelamento - pedestre,1506
+AC01-ACIDE,queda de moto,1507
+AC01-ACIDE,colisão transversal,1508
+AC01-ACIDE,atropelamento - andarilho,1509
+AC02-ACIDE,choque - barranco,1510
+AC02-ACIDE,atropelamento - sem informação,1511
+AC03-ACIDE,atropelamento - ciclista,1512
+AC03-ACIDE,explosão,1513
+AC03-ACIDE,choque - poste,1514
+AC03-ACIDE,incêndio,1515
+AC02-ACIDE,choque - arvore,1516
+Acidente c,abalroamento - longitudinal,1517
+Acidente s,abalroamento - longitudinal,1518
+Acidente s,abalroamento - transversal,1519
+Acidente s,atropelamento - animal,1520
+Atropelame,atropelamento - pedestre atravessando,1521
+Atropelame,atropelamento - abrigo de ônibus,1522
+Atropelame,atropelamento - pedestre caminhando,1523
+Acidente c,abalroamento - transversal,1524
+Acidente f,colisão traseira,1525
+Acidente c,atropelamento - animal,1526
+Atropelame,atropelamento de ciclista,1527
+Atropelame,atropelamento em abrigo de ônibus,1528
+,nan,1529
+Acidente c,choque com objeto na pista,1530
+Acidente s,choque com objeto na pista,1531
+Acidente f,capotamento,1532
+Acidente f,colisão frontal,1533
+Acidente s,atropelamento de pedestre,1534
+Acidente s,choque c/ objeto fixo,1535
+Acidente s,choque / árvore,1536
+Acidente s,queda veículo,1537
+Acidente c,choque c/ objeto fixo,1538
+Acidente F,colisão frontal,1539
+Acidente c,atropelamento de andarilho,1540
+Acidente c,choque com objeto,1541
+Acidente F,atropelamento de ciclista,1542
+Acidente c,queda de viaduto,1543
+Acidente s,choque / objeto não identificado,1544
+Acidente c,queda veículo,1545
+Acidente s,choque com objeto,1546
+Acidente s,atropelamento de andarilho,1547
+Acidente F,tombamento de moto,1548
+Acidente F,atropelamento de pedestre,1549
+Acidente F,colisão traseira,1550
+Acidente F,choque c/ objeto fixo,1551
+Acidente F,capotamento,1552
+Acidente F,colisão transversal,1553
+Acidente F,queda de ribanceira,1554
+Acidente s,atropelamento de ciclista,1555
+Acidente s,choque c/ veículo parado,1556
+Acidente F,tombamento,1557
+Acidente F,colisão lateral,1558
+Acidente F,engavetamento,1559
+Acidente F,atropelamento de andarilho,1560
+Acidente F,outros,1561
+Acidente s,queda de viaduto,1562
+Acidente f,atropelamento de ciclista,1563
+Acidente c,choque c/ veículo parado,1564
+Acidente s,colisão com veículo da concessionária,1565
+Acidente F,atropelamento de animal,1566
+Acidente s,choque com veículo da concessionária estacionado,1567
+Acidente F,choque c/ veículo parado,1568
+Acidente F,choque com objeto,1569
+Acidente F,choque com veículo estacionado,1570
+Acidente c,colisão com veículo da concessionária,1571

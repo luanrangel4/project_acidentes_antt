@@ -1,0 +1,11 @@
+tipo_veiculo,sk_veiculo
+automovel,1
+bicicleta,2
+caminhao,3
+moto,4
+onibus,5
+outros,6
+tracao_animal,7
+transporte_de_cargas_especiais,8
+trator_maquinas,9
+utilitarios,10
